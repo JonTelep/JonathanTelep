@@ -35,11 +35,7 @@ const Search = () => {
             };
 
         }
-
-
-
     }, [term]);
-
     const renderedResults = results.map((result) => {
         return (
             <div key={result.pageid} className="item">
