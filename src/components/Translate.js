@@ -34,10 +34,6 @@ const options = [
         value: 'fr'
     },
     {
-        label: 'Chinese',
-        value: 'zh'
-    },
-    {
         label: 'Hindi',
         value: 'hi'
     },

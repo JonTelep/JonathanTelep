@@ -7,7 +7,7 @@ import useVideos from '../hooks/useVideos';
 const Youtube = () => {
     
     const [selectedVideo, setSelectedVideo] = useState(null);
-    const [videos, search] = useVideos('Ben Awad');
+    const [videos, search] = useVideos('Final 3:39 of Game 7 of the 2016 NBA Finals');
     
     useEffect(() => {
         setSelectedVideo(videos[0]);

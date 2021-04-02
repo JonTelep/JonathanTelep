@@ -20,7 +20,7 @@ const Landing = () => {
                                 Practice Version Control.
                             </div>
                             <div role="listitem" className="item">
-                                Share interesting projects with anyone.
+                                Share my interests and projects.
                             </div>
                             <div role="listitem" className="item">
                                 Show off my mediocare css.
@@ -76,21 +76,16 @@ const Landing = () => {
                                 Wikipedia Search
                             </Link>
                         </div>
+                        <div className="item">
+                            <Link href="/contact" className="item">
+                                Functional Contact Page
+                            </Link>
+                        </div>
                     </div>
                 </div>
 
 
                 <h3 className="ui top attached header">Working on currently</h3>
-                <div className="ui attached segment">
-                    <h3>Contact page</h3>
-                    <p>
-                        A contact page that will allow a user to submit any text to me.
-                    </p>
-                    <h3>Approach</h3>
-                    <p>
-                        Each event will submit an entry into a simple sqlite database. I am going to setup a server in order to house the db and create an API to post to it using Flask with Python.
-                    </p>
-                </div>
                 <div className="ui attached segment">
                     <h3>What Shall I Eat</h3>
                     <p>
