@@ -2,10 +2,11 @@ import React from 'react';
 import Segment from './reusable/SegmentAPIs';
 import Link from './Link';
 import SegmentGithub from './reusable/SegmentGithub';
+import Footer from '../components/Footer';
 
 const Landing = () => {
     return (
-        <div >
+        <div className="container">
             <h1 className="ui center aligned container">Hello, I'm Jon!</h1>
             <p></p>
             <div className="ui segment">
@@ -150,20 +151,12 @@ const Landing = () => {
                     </div>
                 </div>    
 
-                <h3 className="ui top attached header">Websites Versions</h3>
-                <div className="ui attached segment">
-                    <div class="ui relaxed divided list">
-                        <SegmentGithub
-                            GbLink="https://github.com/JonTelep"
-                            GbHeader="Personal Github"
-                            GbDescription="Will be versions of this website once I start branching."
-                        />
-                    </div>
-                </div>
- 
+                <h3 className="ui top attached header">Latest Commits</h3>
+                <div className="ui attached segment">                    
+                    <SegmentGithub />                    
+                </div> 
+                <Footer />
         </div>
-        
-      
     );
 };
 

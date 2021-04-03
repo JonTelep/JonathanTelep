@@ -34,8 +34,20 @@ const options = [
         value: 'fr'
     },
     {
+        label: 'German',
+        value: 'de'
+    },
+    {
         label: 'Hindi',
         value: 'hi'
+    },
+    {
+        label: 'Portuguese (Portugal, Brazil)',
+        value: 'pt'
+    },
+    {
+        label: 'Russian',
+        value: 'ru'
     },
     {
         label: 'Slovak',
@@ -73,7 +85,7 @@ const Translate = () => {
 
                 <h1>Quick overview of the backend.</h1>
                 This translator is using the google's API. Using Axios to call the api within React and displaying the results in real time. <br />
-                There is a timeout set to send the call after 500 ms once the user is done typeing. Each keystroke restarts the timeout. <br />
+                There is a timeout set to send the call after 500 ms once the user is done typing. Each keystroke restarts the timeout. <br />
             </div>
         </div>
     );
