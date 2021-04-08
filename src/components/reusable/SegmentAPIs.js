@@ -5,8 +5,6 @@
         content="this is the content"
     />
 */
-
-
 import React from 'react';
 
 const Segment = ({ icon, link, linkName, content}) => {

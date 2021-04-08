@@ -6,6 +6,7 @@ import Youtube from './components/Youtube';
 import Translate from './components/Translate';
 import Contact from './components/Contact';
 import Wikipedia from './apis/Wikipedia';
+import News from './components/News';
 
 export default () => {
     return(
@@ -25,6 +26,9 @@ export default () => {
             </Route> 
             <Route path="/wikipedia">
                 <Wikipedia />
+            </Route> 
+            <Route path="/news">
+                <News />
             </Route> 
         </div>
     );

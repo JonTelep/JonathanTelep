@@ -5,7 +5,6 @@ const Link = ({ className, href, children}) => {
         if(event.metaKey || event.ctrlKey){
             return;
         }
-
         event.preventDefault();
         window.history.pushState({}, '', href);
 
@@ -16,7 +15,6 @@ const Link = ({ className, href, children}) => {
          <a onClick={onClick} className={className} href={href}>
             {children}
         </a> 
-
     );
 };
 export default Link;

@@ -1,9 +1,10 @@
+/*
+This component is used for the header, easy navigation between pages
+*/
 import React from 'react';
 import Link from './Link';
 import JON from '../images/T_Jon.png';
-                <Link href="/contact" className="item">
-                    Contact
-                </Link>
+
 const Header = () => {
     return (
         <div className="ui secondary pointing menu">
@@ -19,12 +20,14 @@ const Header = () => {
             <Link href="/wikipedia" className="item">
                 Wikipedia
             </Link>
+            <Link href="/news" className="item">
+                News
+            </Link>
             <div className="right menu">
                 <Link href="/contact" className="item">
                     Contact
                 </Link>
             </div>
-            
         </div>
     );
 };

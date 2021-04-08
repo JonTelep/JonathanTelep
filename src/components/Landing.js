@@ -1,3 +1,7 @@
+/*
+This component is the landing page which all users will see when they land on the website.
+Content of who I am as well as what I will be working on will be in this component.
+*/
 import React from 'react';
 import Segment from './reusable/SegmentAPIs';
 import Link from './Link';
@@ -24,7 +28,7 @@ const Landing = () => {
                                 Share my interests and projects.
                             </div>
                             <div role="listitem" className="item">
-                                Show off my mediocare css.
+                                Share my passion of Technology with all.
                             </div>
                         </div>
                     </div>
@@ -49,9 +53,7 @@ const Landing = () => {
                                 linkName={"Github" }
                                 content={"- My bare but ever growing repositories"}
                             />
-
                         </div>
-
                     </div>
                 </div>
                 <div className="ui vertical divider">
@@ -88,10 +90,10 @@ const Landing = () => {
 
                 <h3 className="ui top attached header">Working on currently</h3>
                 <div className="ui attached segment">
-                    <h3>What Shall I Eat</h3>
+                    <h3>Wat Shall I Eat </h3>
                     <p>
                         You ever just not want to cook and want to uber eats/Door dash, or even leave the house to pick up some food. Only problem is you can't decide what to get?
-                        Well What Shall I Eat will tell you what you want.
+                        Well Wat Shall I Eat will tell you what you want.
                     </p>
                     <p>
                         This application will ask to know your geolocation. Once your location is found the page will gather all restaurants in an X radius around you and display one to the screen.
