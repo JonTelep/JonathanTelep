@@ -20,6 +20,9 @@ const Header = () => {
             <Link href="/wikipedia" className="item">
                 Wikipedia
             </Link>
+            <Link href="/crypto" className="item">
+                Crypto
+            </Link>
             <Link href="/news" className="item">
                 News
             </Link>

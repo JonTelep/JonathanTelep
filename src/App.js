@@ -7,6 +7,7 @@ import Translate from './components/Translate';
 import Contact from './components/Contact';
 import Wikipedia from './apis/Wikipedia';
 import News from './components/News';
+import Crypto from './components/Crypto';
 
 export default () => {
     return(
@@ -26,6 +27,9 @@ export default () => {
             </Route> 
             <Route path="/wikipedia">
                 <Wikipedia />
+            </Route> 
+            <Route path="/crypto">
+                <Crypto />
             </Route> 
             <Route path="/news">
                 <News />

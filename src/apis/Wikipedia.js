@@ -33,7 +33,6 @@ const Search = () => {
             return () => {
                 clearTimeout(timeoutId); //this will reset the timer after every keystroke in search, to throttle api requests
             };
-
         }
     }, [term]);
     const renderedResults = results.map((result) => {

@@ -13,10 +13,12 @@ const SegmentGithub = () => {
         };
         github();  
     }, []);
+    
 
     const renderedResults = results.map((result) => {
+        
         return (
-            <div key={result.nodid} className="item">
+            <div key={result.node_id} className="item">
                 <i className="github middle aligned icon" />
                 <div className="content">
                     <a className="header" href={result.html_url}>

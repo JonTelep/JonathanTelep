@@ -61,10 +61,10 @@ const options = [
 ];
 
 const Translate = () => {
-    const [language, setLanguage] = useState(options[9]);
+    const [language, setLanguage] = useState(options[0]);
     const [text, setText] = useState('');
     return (
-        <div>
+        <div>            
             <div className="ui form">
                 <div className="field">
                     <label>Enter Text</label>
@@ -78,14 +78,11 @@ const Translate = () => {
             options={options}
             />
             <hr />
-            <h3 className="ui header">Output</h3>
+            
             <Convert text={text} language={language} />
             <div className="continer">
                 <br />
 
-                <h1>Quick overview of the backend.</h1>
-                This translator is using the google's API. Using Axios to call the api within React and displaying the results in real time. <br />
-                There is a timeout set to send the call after 500 ms once the user is done typing. Each keystroke restarts the timeout. <br />
             </div>
         </div>
     );

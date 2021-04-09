@@ -105,7 +105,7 @@ const Landing = () => {
                         You click a button and it will randomly select a food place around you. 
                     </p>
 
-                        <ol class="ui list">
+                        <ol className="ui list">
                         <li>I want to create the python code and artificially test it. </li>
                         <li>Secondly I will use Flask to create an API to a python server.
                             <ol>
