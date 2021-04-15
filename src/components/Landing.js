@@ -63,7 +63,7 @@ const Landing = () => {
 
             <h3 className="ui top attached header">What I've done</h3>
                 <div className="ui attached segment">
-                    <div class="ui massive horizontal divided list"> 
+                    <div className="ui massive horizontal divided list"> 
                         <div className="item">
                             <Link href="/youtube" className="item">
                                 Youtube Emulator

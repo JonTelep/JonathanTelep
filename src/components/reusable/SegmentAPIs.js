@@ -12,7 +12,7 @@ const Segment = ({ icon, link, linkName, content}) => {
             <div className="item">
                 <i className={icon}></i>
                 <div className="content">
-                    <a role="listitem" class="item" href={link}>
+                    <a role="listitem" className="item" href={link}>
                         {linkName} 
                     </a> {content}
                 </div>

@@ -16,7 +16,7 @@ const Segment = ({  img, link, title, content, twitter }) => {
                 </a> 
             </h3>
             <div className="ui attached segment">
-            <img class="ui centered medium image" src={img}></img>
+            <img className="ui centered medium image" src={img}></img>
                 <p>{content}</p>
             </div>
         </div>
