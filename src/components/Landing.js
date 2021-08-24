@@ -65,13 +65,13 @@ const Landing = () => {
                 <div className="ui attached segment">
                     <div className="ui massive horizontal divided list"> 
                         <div className="item">
-                            <Link href="/youtube" className="item">
-                                Youtube Emulator
+                            <Link href="/projects" className="item">
+                                Completed Projects
                             </Link>
                         </div>
                         <div className="item">
-                            <Link href="/translate" className="item">
-                                Google Translate
+                            <Link href="/youtube" className="item">
+                                Youtube Emulator
                             </Link>
                         </div>
                         <div className="item">
@@ -81,28 +81,14 @@ const Landing = () => {
                         </div>
                         <div className="item">
                             <Link href="/contact" className="item">
-                                Functional Contact Page
+                                Contact Page
                             </Link>
                         </div>
                     </div>
                 </div>
-
-
                 <h3 className="ui top attached header">Working on currently</h3>
                 <div className="ui attached segment">
-                    <h3>Ethereum and Solidity</h3>
-                    <p>
-                        I've always wanted to be on the front lines of technology and I truly believe that blockchain and web3 will revolutionize the way everyone interacts through the internet. In my spare
-                        time I've been working on learning Blockchain development with <a href="https://cryptozombies.io/">CryptoZombies.</a> An interactive way to create your first blockchain DApp with
-                        smart contracts in Solidity. I am also enrolled in <a href="https://www.udemy.com/course/ethereum-and-solidity-the-complete-developers-guide">ethereum-and-solidity-the-complete-developers-guide </a>
-                        to help me get a better understanding and have a couple projects under my belt to reference for my future projects.
-                    </p>
-                    <p>
-                        I've also started interacting and reading from many popular crypto people.
-                    </p>
-                </div>
-                <div className="ui attached segment">
-                    <h3>Wat Shall I Eat (Delayed, talking to my web hosting provider around a CORS api issue)</h3>
+                    <h3>Wat Shall I Eat (Deployed non functional)</h3>
                     <p>
                         You ever just not want to cook and want to uber eats/Door dash, or even leave the house to pick up some food. Only problem is you can't decide what to get?
                         Well Wat Shall I Eat will tell you what you want.
@@ -111,7 +97,32 @@ const Landing = () => {
                         This application will ask to know your geolocation. Once your location is found the page will gather all restaurants in an X radius around you and display one to the screen.
                         There will be some variables you can control in the decision of the selection. Types of restaurants and a mileage radius around you.
                     </p>
-  
+                    <p>
+                        Very early stages, but the general format of the site can be seen here: <a href="https://www.watshallieat.com">Wat Shall I Eat</a>
+                    </p>
+                </div>
+                <div className="ui attached segment">
+                    <h3>Telep Remodeling LLC (Deployed!)</h3>
+                    <p>
+                        A carpentry website I built for my brother for his birthday! I wanted to help modernize his company and setup an email service for people that may visit online.
+                        My brother David is a very talented Carpenter located in North Eastern Ohio. If you need nay carpentry work please reach out!
+                    </p>
+                    <p>
+                        The website can be found here: <a href="https://www.telepremodeling.com">Telep Remodeling LLC</a>
+                    </p>
+                </div>
+                <div className="ui attached segment">
+                    <h3>Crypto World</h3>
+                    <p>
+                        I am fascinated with the Crypto world of Blockchain technologies to NFTS. NFT's explicitly baffle me like no other. How a $1k minted png can be then sold for $3.3 million 2 months later.
+                        Vast amounts of money within Crypto and I would be dumb to not dabble within it. Investing my money and time into the field to maybe one day create something truly special.
+                    </p>
+                    <p>
+                            My first NFT can be found here: 
+                            <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/51156684435078612265777829555012220085558653837370331361123690713874186633217/">
+                            Conker's Bad Fur Day
+                            </a>
+                    </p>
                 </div>
 
                 <h3 className="ui attached header">Next on the list</h3>

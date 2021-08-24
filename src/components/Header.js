@@ -11,11 +11,11 @@ const Header = () => {
             <Link href="/" className="item">
                 <img src={JON} alt="Jon logo"/>
             </Link>
+            <Link href="/projects" className="item">
+                Projects
+            </Link>
             <Link href="/youtube" className="item">
                 Youtube
-            </Link>
-            <Link href="/translate" className="item">
-                Translate
             </Link>
             <Link href="/wikipedia" className="item">
                 Wikipedia

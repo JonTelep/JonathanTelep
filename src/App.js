@@ -8,6 +8,7 @@ import Contact from './components/Contact';
 import Wikipedia from './apis/Wikipedia';
 import News from './components/News';
 import Crypto from './components/Crypto';
+import Projects from './components/Projects';
 
 export default () => {
     return(
@@ -33,6 +34,9 @@ export default () => {
             </Route> 
             <Route path="/news">
                 <News />
+            </Route> 
+            <Route path="/projects">
+                <Projects />
             </Route> 
         </div>
     );
