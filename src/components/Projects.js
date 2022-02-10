@@ -17,8 +17,8 @@ const Projects = () => {
                     <h3>Telep Remodeling LLC</h3>
                     <img className="ui centered medium image" src={TRLLC}></img>
                     <p>
-                        A carpentry website I built for my brother for his birthday! I wanted to help modernize his company and setup an email service for people that may visit online.
-                        My brother David is a very talented Carpenter located in North Eastern Ohio. If you need nay carpentry work please reach out!
+                        (A carpentry website I built for my brother for his birthday! I wanted to help modernize his company and setup an email service for people that may visit online.
+                        My brother David is a very talented Carpenter located in North Eastern Ohio. If you need any carpentry work please reach out! (My brother needs to give me more pictures, don't mind the services page) 
                     </p>
                     <p>
                         The website can be found here: <a href="https://www.telepremodeling.com">Telep Remodeling LLC</a>

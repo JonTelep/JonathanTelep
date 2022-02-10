@@ -88,29 +88,37 @@ const Landing = () => {
                 </div>
                 <h3 className="ui top attached header">Working on currently</h3>
                 <div className="ui attached segment">
-                    <h3>Wat Shall I Eat (Deployed non functional)</h3>
+                    <h3>Python, Pandas, Flask, Tweepy</h3>
                     <p>
-                        You ever just not want to cook and want to uber eats/Door dash, or even leave the house to pick up some food. Only problem is you can't decide what to get?
-                        Well Wat Shall I Eat will tell you what you want.
+                        I have picked my python passion back up and have decided to learn the beloved Pandas library for Data Analysis mixed with Flask-restful to open up my own APIs.
+                        Currently working on <a href="https://twitter.com/cryptokap10">Crypto Address Tracker</a> Twitter Bot which will monitor a list of celebrity address wallets.
+                        Goal is to alert followers of celebrities that they may not have their best interest financially. Think twice before investing in what they're selling.
                     </p>
                     <p>
-                        This application will ask to know your geolocation. Once your location is found the page will gather all restaurants in an X radius around you and display one to the screen.
-                        There will be some variables you can control in the decision of the selection. Types of restaurants and a mileage radius around you.
+                        I am using Python with the libraries Requst to make API calls to Etherscan and OpenSea APIs, Pandas for data manipulation, Tweepy for easy Twitter API usage, and Flask to open up the data I'm logging
+                        as an API for future usage and the public. While I create this bot I am also creating a template that reuses much of what I've built with a easy guide to follow. I will open that up
+                        as a github repo along with my API libraries!
                     </p>
                     <p>
-                        Very early stages, but the general format of the site can be seen here: <a href="https://www.watshallieat.com">Wat Shall I Eat</a>
+                        Eventually I'll get the point where I need to host the bot and automate the runs. Still need to research more into that, as of now I am manually running the script with enhances everyday.
+                        My technical heavy <a href="https://twitter.com/telep_io">Twitter Account</a>  gives updates of progress. I wish to keep the bot only tweeting automated tweets.
                     </p>
                 </div>
                 <div className="ui attached segment">
-                    <h3>Telep Remodeling LLC (Deployed!)</h3>
+                    <h3>API Libraries</h3>
                     <p>
-                        A carpentry website I built for my brother for his birthday! I wanted to help modernize his company and setup an email service for people that may visit online.
-                        My brother David is a very talented Carpenter located in North Eastern Ohio. If you need nay carpentry work please reach out!
+                        Etherscan API is a very popular api to get all Ethereum address related data. I've created a etherscan library class which can be referenced for easy usage on other projects.
                     </p>
                     <p>
-                        The website can be found here: <a href="https://www.telepremodeling.com">Telep Remodeling LLC</a>
+                        Opensea API is the most popular NFT marketplace. You can link any ENS domain or Ethereum address to a profile which houses all their NFTS. I am created a library which will grab
+                        simple analytics on a profile.
+                    </p>
+                    <p>
+                        Twitter API has many already built libraries but I wish to learn therefore I am creating my own. Currently I am using tweepy but have issues with the OAUTH2 so am in the progress of 
+                        creating my own little library for Twitter.
                     </p>
                 </div>
+                
                 <div className="ui attached segment">
                     <h3>Crypto World</h3>
                     <p>
@@ -118,16 +126,21 @@ const Landing = () => {
                         Vast amounts of money within Crypto and I would be dumb to not dabble within it. Investing my money and time into the field to maybe one day create something truly special.
                     </p>
                     <p>
-                            My first NFT can be found here: 
-                            <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/51156684435078612265777829555012220085558653837370331361123690713874186633217/">
-                            Conker's Bad Fur Day
-                            </a>
+                        10 months after my deep crypto rabbit hole dive I am still intrigued with the technology behind crypto. But am skeptical the damage being done on the adoption side of people getting 'rugged' and many hacks being exploited.
+                        But all great things have their hiccups and am working to try to help people have the knowledge that their beloved celebrity does not have their best interests. My twitter bots will monitor these celebrity addresses of known culprits
+                        and tweet out fishy transactions.
                     </p>
                 </div>
 
                 <h3 className="ui attached header">Next on the list</h3>
                 <div role="listitem" className="ui attached segment">
                     <div className="ui list">
+                        <Segment
+                            icon={"twitter icon"}
+                            link={"https://developer.twitter.com/en/docs/twitter-api"}
+                            linkName={"Twitter API" }
+                            content={"- Be able to see analytics over a certain tweet."}
+                        />
                         <Segment
                                 icon={"dollar sign icon"}
                                 link={"https://www.google.com/adsense/start/"}
@@ -145,12 +158,6 @@ const Landing = () => {
                             link={"https://api.nasa.gov/"}
                             linkName={"NASA API" }
                             content={"- Space imagery from the hubble telescope, wish to automate new images displayed daily."}
-                        />
-                        <Segment
-                            icon={"twitter icon"}
-                            link={"https://developer.twitter.com/en/docs/twitter-api"}
-                            linkName={"Twitter API" }
-                            content={"- Be able to see analytics over a certain tweet."}
                         />
                         <Segment
                             icon={"chess knight icon"}

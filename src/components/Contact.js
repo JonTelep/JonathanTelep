@@ -158,7 +158,7 @@ const Contact = () => {
                     Feedback Id: {feedbackId}
                 </div> 
                 <div className="ui segment">
-                    Note, if the feedbackId is empty. Something failed on backend and a error report will be sent instead :/
+                    Working on making a much better backend for this. This feature does not work. Please reach out to me at TelepJonathan@gmail.com
                 </div> 
             </div>
             }
