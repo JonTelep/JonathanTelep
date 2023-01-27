@@ -6,13 +6,24 @@ import Footer from '../components/Footer';
 //Images imported
 import OSRNG from '../images/OSRNG.PNG';
 import TRLLC from '../images/TelepRemodeling.png';
-import TIO from '../images/Telepio.PNG';
+import TIO from '../images/Telep_IO.PNG';
 
 
 const Projects = () => {
     return (
         <div>
-            <h3 className="ui top attached header">Completed Projects</h3>
+            <h3 className="ui top attached header">Current Projects</h3>
+                <div className="ui attached segment">
+                    <h3>Telep IO</h3>
+                    <img className="ui centered medium image" src={TIO}></img>
+                    <p>
+                        Website that will house my professional projects and services. It is a mere template at this moment but wish to expand once some of my projects progress to a Minimum Viable Product.
+                        Behind the scenes I've been putting my project manager hat on and documenting tasks/sprints organized in Confluence.
+                    </p>
+                    <p>
+                        Can be found <a href="https://www.telep.io">Telep IO</a>
+                    </p>
+                </div>
                 <div className="ui attached segment">
                     <h3>Telep Remodeling LLC</h3>
                     <img className="ui centered medium image" src={TRLLC}></img>
@@ -36,17 +47,7 @@ const Projects = () => {
                     The website can be found here: <a href="https://www.osrng.com">OSRNG</a>
                     </p>
                 </div>
-                <div className="ui attached segment">
-                    <h3>Telep IO</h3>
-                    <img className="ui centered medium image" src={TIO}></img>
-                    <p>
-                        Website that will house my professional projects and services. It is a mere template at this moment but wish to expand once some of my projects progress to a Minimum Viable Product.
-                        Behind the scenes I've been putting my project manager hat on and documenting tasks/sprints organized in Confluence.
-                    </p>
-                    <p>
-                        Can be found <a href="https://www.telep.io">Telep IO</a>
-                    </p>
-                </div>
+
                 <Footer />
         </div>
     );

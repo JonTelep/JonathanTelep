@@ -38,7 +38,7 @@ const Landing = () => {
                             <Segment
                                 icon={"google icon"}
                                 link={"https://www.gmail.com"}
-                                linkName={"TelepJonathan@gmail.com" }
+                                linkName={"jon@telep.io" }
                                 content={"- My personal email."}
                             />
                             <Segment
@@ -66,7 +66,7 @@ const Landing = () => {
                     <div className="ui massive horizontal divided list"> 
                         <div className="item">
                             <Link href="/projects" className="item">
-                                Completed Projects
+                                Current Projects
                             </Link>
                         </div>
                         <div className="item">
